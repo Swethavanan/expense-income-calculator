@@ -1,0 +1,111 @@
+body {
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    background-color: #DDA0DD;
+  }
+  
+  .summary {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 1%;
+    box-shadow: 0 4px 8px 0 #33006F;
+    background-color: #E6E6FA;
+  }
+  .radio{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+    margin-top: 50;
+    margin-bottom: 50px;
+  }
+  .total {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  
+  }
+  .total>div {
+    width: 200px;
+  }
+  .root {
+    width: fit-content;
+    background-color:#720e9e;
+    display: flex;
+    margin: auto;
+    padding: 2%;
+    padding-top: 1%;
+    justify-content: center;
+    text-align: center;
+    border-width: 6px;
+    border: 6px whitesmoke;
+    border-radius: 40px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 8px 0 rgba(92, 202, 42, .2);
+    min-height: 30vh;
+  }
+  .verticle{
+    margin: 0 2%;
+    border-width: 2px;
+  }
+  #table {
+    border-collapse: collapse;
+    width: 50vw;
+    border-radius: 40px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  #table th,
+  #table td {
+    text-align: left;
+    padding: 12px;
+  }
+  #table tr {
+    border-bottom: 1px solid #c2b6b6;
+  }
+  /* Headings*/
+  #table tr.titles {
+    background-color: #800080;
+  }
+  /* Style for each input item */
+  .inputitem {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: large;
+    padding: 1%;
+  }
+  input,
+  select,
+  option {
+    padding: 2%;
+    border-radius: 5px;
+    margin: 2%;
+  }
+  button {
+    font-size: medium;
+    background-color: #1d1160;
+    color: #E6E6FA;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .zoom {
+    color: black;
+    transition: transform .2s;
+  }
+  .zoom:hover {
+    transform: scale(1.23);
+    color: green;
+  }
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  .filter-section label {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  
